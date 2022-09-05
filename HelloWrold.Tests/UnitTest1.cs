@@ -8,7 +8,9 @@ namespace HelloWrold.Tests
         [Fact]
         public void Test1()
         {
-            Assert.True(true);
+            int sum = 1 + 1;
+
+            Assert.Equal(2, sum);
         }
     }
 }
